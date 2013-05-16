@@ -1,0 +1,3 @@
+Bundle-Activator: yogi.osgi.heartbeat.HeartBeatActivator
+Private-Package: yogi.osgi.heartbeat
+Bundle-Version: 1.0.0

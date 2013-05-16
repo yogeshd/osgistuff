@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Registration
+Bundle-SymbolicName: com.yogi.registration
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: YOGI
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: com.yogi.registration
+

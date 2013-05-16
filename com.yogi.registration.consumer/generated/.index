@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<repository increment='1366393067888' name='com.yogi.registration.consumer' xmlns='http://www.osgi.org/xmlns/repository/v1.0.0'>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='com.yogi.registration.consumer'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='0b8c2fb27b753cd3be2df918c0f03b75d16e16c4ac9df006df8a8e16ac9f7c7c'/>
+      <attribute name='url' value='generated/com.yogi.registration.consumer.jar'/>
+      <attribute name='size' type='Long' value='3186'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='com.yogi.registration.consumer'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='com.yogi.registration.consumer'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0'/>
+    </capability>
+    <capability namespace='bndtools.workspace'>
+      <attribute name='bndtools.workspace' value='file:/C:/Users/yogeshd/workspaceosgi'/>
+      <attribute name='project.path' value='/com.yogi.registration.consumer'/>
+    </capability>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=com.yogi.registration)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+    </requirement>
+  </resource>
+</repository>

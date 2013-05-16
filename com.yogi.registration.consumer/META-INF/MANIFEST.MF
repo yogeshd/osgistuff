@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Consumer
+Bundle-SymbolicName: com.yogi.registration.consumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: YOGI
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: com.yogi.registration
+Service-Component: OSGI-INF/component.xml

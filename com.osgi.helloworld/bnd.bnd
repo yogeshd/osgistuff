@@ -1,0 +1,3 @@
+Bundle-Activator: yogi.osgi.tutorial.HelloWorldActivator
+Private-Package: yogi.osgi.tutorial
+Bundle-Version: 1.0.0

@@ -1,0 +1,21 @@
+!SESSION 2013-04-19 22:51:46.633 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_43
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -console -configuration runtime
+
+!ENTRY org.eclipse.osgi 4 0 2013-04-19 22:51:49.200
+!MESSAGE Application error
+!STACK 1
+java.lang.IllegalStateException: Unable to acquire application service. Ensure that the org.eclipse.core.runtime bundle is resolved and started (see config.ini).
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:74)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.main(EclipseStarter.java:151)
+
+!ENTRY com.yogi.registration 4 0 2013-04-19 22:58:27.282
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.yogi.registration. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.yogi.registration 4 0 2013-04-19 22:58:27.285
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.yogi.registration. The component header value is OSGI-INF/component.xml

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<repository increment='1366321790046' name='com.osgi.helloworld' xmlns='http://www.osgi.org/xmlns/repository/v1.0.0'>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='com.osgi.helloworld'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='05379c9e1b0471ac72acc62c924c2a34f1e6be8bd971c80e38326fb3029e6b79'/>
+      <attribute name='url' value='generated/com.osgi.helloworld.jar'/>
+      <attribute name='size' type='Long' value='2513'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='com.osgi.helloworld'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='com.osgi.helloworld'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0'/>
+    </capability>
+    <capability namespace='bndtools.workspace'>
+      <attribute name='bndtools.workspace' value='file:/C:/Users/yogeshd/workspaceosgi'/>
+      <attribute name='project.path' value='/com.osgi.helloworld'/>
+    </capability>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))'/>
+    </requirement>
+  </resource>
+</repository>
